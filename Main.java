@@ -32,6 +32,17 @@
 
         if (command.equals("vodka")){
             System.out.println("Correct! Enjoy the slice!");
+            command = getCommand("Would you like to go north or east");
+         if(command.equals("north")){
+            System.out.println("You spot Sam leibman outside Stickys (RIP) paying his respect and he asks  ");
+            command = getCommand("Is murr sigma or skibidi?");
+         }
+         if(command.equals("sigma")){
+            System.out.println("Correct! You have been granted Murray Hill citizneship!");
+         }
+         else if(command.equals("skibidi")){
+            System.out.println("Wrong! Sam hits you with the murr dance off and sends you into the earths core! Press run to replay");
+         }
          }
          else if (command.equals("pasta")){
             System.out.println("WRONG ANSWER! Game Over! Press run to replay.");
@@ -50,6 +61,17 @@
          }
        else if (command.equals("buffalo chicken")){
             System.out.println("Correct! Enjoy the slice!");
+            command = getCommand("Would you like to go north or east");
+         if(command.equals("north")){
+            System.out.println("You spot Sam leibman outside Stickys (RIP) paying his respect and he asks  ");
+            command = getCommand("Is murr sigma or skibidi?");
+         }
+         if(command.equals("sigma")){
+            System.out.println("Correct! You have been granted Murray Hill citizneship!");
+         }
+         else if(command.equals("skibidi")){
+            System.out.println("Wrong! Sam hits you with the murr dance off and sends you into the earths core! Press run to replay");
+         }
          }
       
          }
@@ -75,8 +97,21 @@
          if (command.equals("cheese")){
             System.out.println("WRONG ANSWER! Game Over! Press run to replay.");
          }
+         
+
         else if (command.equals("vodka")){
             System.out.println("Correct! Enjoy the slice!");
+            command = getCommand("Would you like to go north or east");
+         if(command.equals("north")){
+            System.out.println("You spot Sam leibman outside Stickys (RIP) paying his respect and he asks  ");
+            command = getCommand("Is murr sigma or skibidi?");
+         }
+         if(command.equals("sigma")){
+            System.out.println("Correct! You have been granted Murray Hill citizneship!");
+         }
+         else if(command.equals("skibidi")){
+            System.out.println("Wrong! Sam hits you with the murr dance off and sends you into the earths core! Press run to replay");
+         }
          }
          else if (command.equals("pasta")){
             System.out.println("WRONG ANSWER! Game Over! Press run to replay.");
@@ -95,10 +130,28 @@
          }
        else if (command.equals("buffalo chicken")){
             System.out.println("Correct! Enjoy the slice!");
+            command = getCommand("Would you like to go north or east");
+          if(command.equals("north")){
+            System.out.println("You spot Sam leibman outside Stickys (RIP) paying his respect and he asks  ");
+            command = getCommand("Is murr sigma or skibidi?");
          }
-         command=getCommand("Would you like to go north, east, or west");
+         if(command.equals("sigma")){
+            System.out.println("Correct! You have been granted Murray Hill citizneship!");
+         }
+         else if(command.equals("skibidi")){
+            System.out.println("Wrong! Sam hits you with the murr dance off and sends you into the earths core! Press run to replay");
+         }
+         if (command.eqauls("east")){
+            System.out.println("You end up in the random murr parking lot and get 200 pumped! Press run to replay");
+         }
+         }
+         
+         
 
          }
+         
+
+
          else if (command.equals ("no")){
             System.out.println("You get hit by a taxi! Game over! Press run to restart.");
          }
