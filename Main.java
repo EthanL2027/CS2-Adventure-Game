@@ -20,27 +20,17 @@
          command = getCommand("Do you go north or east");
          if (command.equals("north")){
             System.out.println("You see Garlic Pizzeria.");
+            command = getCommand("Would you like to go inside?");
          }
          else if (command.equals("east")){
             System.out.println("You illegaly enter the building and get shot by the doorman! Game Over! Press run to replay.");
          }
    
-         command = getCommand("Would you like to go inside?");
+         
          if (command.equals("yes")){
-      System.out.println("pick a slice");
-         }
-         else if (command.equals ("no")){
-            System.out.println("You get hit by a taxi! Game over! Press run to restart.");
-         }
-      command = getCommand("What slice would you like?");
-         if (command.equals("cheese")){
-            System.out.println("WRONG ANSWER! Game Over! Press run to replay.");
-         }
-              
-         if (command.equals("cheese")){
-            System.out.println("WRONG ANSWER! Game Over! Press run to replay.");
-         }
-        else if (command.equals("vodka")){
+            command = getCommand("What slice would you like?");
+
+        if (command.equals("vodka")){
             System.out.println("Correct! Enjoy the slice!");
          }
          else if (command.equals("pasta")){
@@ -61,6 +51,17 @@
        else if (command.equals("buffalo chicken")){
             System.out.println("Correct! Enjoy the slice!");
          }
+      
+         }
+         if (command.equals("cheese")){
+            System.out.println("WRONG ANSWER! Game Over! Press run to replay.");
+         }
+              
+         
+         
+         else if (command.equals ("no")){
+            System.out.println("You get hit by a taxi! Game over! Press run to restart.");
+         }
       }
       
       
@@ -69,12 +70,8 @@
       
          command = getCommand("Would you like to go inside?");
          if (command.equals("yes")){
-      System.out.println("pick a slice");
-         }
-         else if (command.equals ("no")){
-            System.out.println("You get hit by a taxi! Game over! Press run to restart.");
-         }
-      command = getCommand("What slice would you like?");
+      
+         command = getCommand("What slice would you like?");
          if (command.equals("cheese")){
             System.out.println("WRONG ANSWER! Game Over! Press run to replay.");
          }
@@ -101,6 +98,11 @@
          }
          command=getCommand("Would you like to go north, east, or west");
 
+         }
+         else if (command.equals ("no")){
+            System.out.println("You get hit by a taxi! Game over! Press run to restart.");
+         }
+      
 
 
 
