@@ -131,6 +131,7 @@
        else if (command.equals("buffalo chicken")){
             System.out.println("Correct! Enjoy the slice!");
             command = getCommand("Would you like to go north or east");
+          
           if(command.equals("north")){
             System.out.println("You spot Sam leibman outside Stickys (RIP) paying his respect and he asks  ");
             command = getCommand("Is murr sigma or skibidi?");
@@ -141,9 +142,7 @@
          else if(command.equals("skibidi")){
             System.out.println("Wrong! Sam hits you with the murr dance off and sends you into the earths core! Press run to replay");
          }
-         if (command.eqauls("east")){
-            System.out.println("You end up in the random murr parking lot and get 200 pumped! Press run to replay");
-         }
+         
          }
          
          
